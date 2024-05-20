@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --orang:hsl(31, 77%, 52%);
+    --blue:hsl(184, 100%, 22%);
+    --green:hsl(179, 100%, 13%);
+
+    /* (paragraphs) */
+    --white: hsla(0, 0%, 100%, 0.75);
+
+    /* (background, headings, buttons) */
+    --gray: hsl(0, 0%, 95%);
+
+}
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: var(--gray);
+}
+
+.contaner
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+
+/* one */
+
+
+
+.card-top
+{   
+    display: flex;
+    flex-direction: column;
+    background-color: var(--orang);
+    width:307px;
+    height: 500px;
+}
+.card-top div
+{
+    margin-left:48px ;
+}
+.card-img
+{
+     margin-top: 48px;
+     margin-bottom: 35px; 
+}
+.card-title
+{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size:40px ;
+    color:white;
+    margin-bottom: 25px ;
+
+    
+}
+.card-info
+{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    color: var(--white);
+    margin-bottom: 83px;
+}
+.card-button
+{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    border-radius: 25px;
+    width: 146px;
+    height: 48px;
+    border: none;
+    color: var(--orang  )
+}
+.card-button:hover
+{
+     background-color: var(--orang);
+     border:3px solid white;
+     color: white;
+}
+
+
+
+/* two */
+
+
+
+.card-top-two
+{   
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    width:307px;
+    height: 500px;
+}
+.card-top-two div
+{
+    margin-left:48px ;
+}
+.card-button-two
+{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    border-radius: 25px;
+    width: 146px;
+    height: 48px;
+    border: none;
+    color: var(--blue  )
+}
+.card-button-two:hover
+{
+     background-color: var(--blue);
+     border:3px solid white;
+     color: white;
+}
+
+
+
+/* three */
+
+
+.card-top-three
+{   
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    width:307px;
+    height: 500px;
+}
+.card-top-three div
+{
+    margin-left:48px ;
+}
+.card-button-three
+{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    border-radius: 25px;
+    width: 146px;
+    height: 48px;
+    border: none;
+    color: var(--green  )
+}
+.card-button-three:hover
+{
+     background-color: var(--green);
+     border:3px solid white;
+     color: white;
+}
